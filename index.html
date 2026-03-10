@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoParts Pro | Repuestos de Calidad</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&family=Barlow+Condensed:wght@700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- HEADER / NAV -->
+    <header id="header">
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-gear"></i></span>
+                <div class="logo-text">
+                    <span class="logo-main">AUTOPARTS</span>
+                    <span class="logo-sub">PRO</span>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#historia">Nuestra Historia</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#historia" onclick="closeMenu()">Nuestra Historia</a></li>
+                <li><a href="#servicios" onclick="closeMenu()">Servicios</a></li>
+                <li><a href="#productos" onclick="closeMenu()">Productos</a></li>
+                <li><a href="#contacto" onclick="closeMenu()">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg">
+            <a class="brand" href="#">
+                <img class="hero-logo" src="images/MAZAS.jpeg" alt="MAZA">
+            </a>
+        </div>
+        <i class="fa-solid fa-car-side"></i>
+        </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">CALIDAD · CONFIANZA · EXPERIENCIA</p>
+            <h1 class="hero-title">REPUESTOS<br /><span>ORIGINALES</span></h1>
+            <p class="hero-desc">Tu empresa de confianza con los mejores repuestos y accesorios para todo tipo de
+                vehículos.</p>
+            <div class="hero-btns">
+                <a href="#productos" class="btn btn-primary">Ver Productos</a>
+                <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Años de experiencia</span></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Productos disponibles</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">1000+</span><span class="stat-label">Clientes satisfechos</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTRA HISTORIA -->
+    <section id="historia" class="historia section-pad">
+        <div class="container">
+            <div class="section-tag">QUIÉNES SOMOS</div>
+            <h2 class="section-title">Nuestra <span>Historia</span></h2>
+            <div class="historia-grid">
+                <div class="historia-text">
+                    <p class="historia-lead">Desde nuestros humildes comienzos en un pequeño local familiar, hemos
+                        crecido hasta convertirnos en referentes en repuestos automotrices de la región, el nombre'MAZA' se creo por parte de dos personas 
+                        que son Telmo Fernandez y Vladimir Fernandez, que en un principio el comerio fue del area de dicos y parlantes pero en estos
+                        tiempos el comercio se convirtió en un negocio de repuestos de calidad y confianza a manos de Luis Fernandez.</p>
+                    <p>Fundada en el año 2020, <strong>Auto Repuestos Maza</strong> nació de la pasión por los automóviles y
+                        la visión de ofrecer repuestos de calidad a precios accesibles. Con el paso de los años,
+                        ampliamos nuestro catálogo, sumamos marcas internacionales y formamos un equipo de expertos
+                        comprometidos con la satisfacción del cliente.</p>
+                    <p>Hoy contamos con varias sucursales tanto en Cochabamba como en Santa Cruz, stock permanente de varios productos y alianzas
+                        estratégicas con los principales distribuidores del mercado.</p>
+                    <div class="historia-valores">
+                        <div class="valor"><i class="fa-solid fa-shield-halved"></i><span>Calidad garantizada</span>
+                        </div>
+                        <div class="valor"><i class="fa-solid fa-handshake"></i><span>Trato personalizado</span></div>
+                        <div class="valor"><i class="fa-solid fa-truck-fast"></i><span>Entrega rápida</span></div>
+                    </div>
+                </div>
+                <div class="historia-img-area">
+
+                    <img class="hero-logo" src="images/maza.jpeg" alt="Nuestra empresa">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Foto de la empresa</span>
+                    <div class="historia-badge">
+                        <span class="badge-num">20</span>
+                        <span class="badge-text">años<br />de servicio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios section-pad">
+        <div class="container">
+            <div class="section-tag light">NUESTROS SERVICIOS</div>
+            <h2 class="section-title light">Lo que <span>ofrecemos</span></h2>
+            <div class="servicios-grid">
+
+                <div class="servicio-card">
+                    <div class="servicio-icon"><i class="fa-solid fa-magnifying-glass-dollar"></i></div>
+                    <h3>IMPORTACIONES</h3>
+                    <p>Importamos calidad para ofrecerte los mejores productos del mundo.</p>
+                    <a href="#contacto" class="servicio-link">Consultar <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="servicio-card featured">
+                    <div class="servicio-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+                    <h3>DISTRIBUCION DE REPUESTOS</h3>
+                    <p>Distribuimos calidad para que nuestros productos lleguen a todas partes.</p>
+                    <a href="#productos" class="servicio-link">Ver productos <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3>ATENCION AL CLIENTE</h3>
+                    <p>Comprometidos con brindarte el mejor servicio e informacion.</p>
+                    <a href="#contacto" class="servicio-link">Pedir envío <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="productos section-pad">
+        <div class="container">
+            <div class="section-tag">CATÁLOGO</div>
+            <h2 class="section-title">Nuestros <span>Productos</span></h2>
+            <p class="section-desc">Repuestos originales y de primera calidad para mantener tu vehículo en óptimas
+                condiciones.</p>
+
+            <div class="productos-grid">
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/capuchon.jpeg" alt="Capuchones">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-circle-stop"></i></div>
+                        <span class="prod-tag">capuchon</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Capuchones</h4>
+                        <p>Protegen las bujías y cables del motor, evitando la entrada de polvo, humedad y suciedad.</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/culata.jpeg" alt="culata">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-filter"></i></div>
+                        <span class="prod-tag">culata</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Culata</h4>
+                        <p>Parte fundamental del motor que cubre los cilindros y permite el correcto funcionamiento de válvulas y combustión.</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/empaques_balancin.jpeg" alt="empaques_balancin">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-arrows-up-down"></i></div>
+                        <span class="prod-tag">empaques</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Empaques de balancin</h4>
+                        <p>Sello que evita fugas de aceite en la tapa de válvulas, manteniendo el motor limpio y bien lubricado.
+                        </p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/bujias.jpeg" alt="bujias">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-bolt"></i></div>
+                        <span class="prod-tag">bujias</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Bujías de Encendido</h4>
+                        <p>Componente que genera la chispa necesaria para encender la mezcla de aire y combustible en el motor.</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/filtro_de_aire.jpeg" alt="filtro_de_aire">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-battery-full"></i></div>
+                        <span class="prod-tag">filtros</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Filtro de aire</h4>
+                        <p>Elemento que limpia el aire que entra al motor, evitando que polvo o partículas dañen sus componentes.
+                        </p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/manguera.jpeg" alt="manguera">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-rotate"></i></div>
+                        <span class="prod-tag">manguera</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Manguera de gasolina</h4>
+                        <p>Conducto flexible que transporta el combustible desde el tanque hasta el motor.</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/muñones_suspencion.jpeg" alt="muñones">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-wind"></i></div>
+                        <span class="prod-tag">muñones</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Muñones de suspencion</h4>
+                        <p>Piezas del sistema de suspensión que permiten el movimiento y estabilidad de las ruedas.</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/prefiltros_de_bomba.jpeg" alt="prefiltros">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-circle-dot"></i></div>
+                        <span class="prod-tag">filtros</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Prefiltros de bomba</h4>
+                        <p>Filtros que retienen impurezas del combustible antes de que llegue a la bomba, protegiendo el sistema de inyección..
+                        </p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/rotor.jpeg" alt="rotor">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-droplet"></i></div>
+                        <span class="prod-tag">rotor</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>Rotor</h4>
+                        <p>Componente del sistema de encendido que distribuye la corriente eléctrica desde el distribuidor hacia las bujías para que el motor funcione correctamente..</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-img-wrap">
+                        <img class="hero-logo" src="images/balancines.jpeg" alt="balancines">
+                        <div class="prod-img-placeholder"><i class="fa-solid fa-lightbulb"></i></div>
+                        <span class="prod-tag">balancin</span>
+                    </div>
+                    <div class="producto-info">
+                        <h4>balancines</h4>
+                        <p>Faros delanteros y traseros LED de alta luminosidad con tecnología de última generación.</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">Consultar precio</span>
+                            <a href="#contacto" class="prod-btn">Pedir</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  <!-- GALERÍA -->
+<section class="galeria section-pad">
+    <div class="container">
+        <div class="section-tag light">NUESTRAS INSTALACIONES</div>
+        <h2 class="section-title light">Conoce nuestro <span>local</span></h2>
+
+        <div class="galeria-grid">
+
+            <div class="gal-item gal-big">
+                <div class="gal-placeholder">
+                    <img src="images/local.jpeg" alt="Local">
+                    <span>Foto local principal</span>
+                </div>
+            </div>
+
+            <div class="gal-item">
+                <div class="gal-placeholder">
+                    <img src="images/deposito.jpeg" alt="Depósito">
+                    <span>Depósito</span>
+                </div>
+            </div>
+
+            <div class="gal-item">
+                <div class="gal-placeholder">
+                    <img src="images/equipo.jpeg" alt="Equipo">
+                    <span>Nuestro equipo</span>
+                </div>
+            </div>
+
+            <div class="gal-item">
+                <div class="gal-placeholder">
+                    <img src="images/stock.jpeg" alt="Stock">
+                    <span>Stock de productos</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto section-pad">
+        <div class="container">
+            <div class="section-tag">CONTACTO</div>
+            <h2 class="section-title">Hablemos <span>hoy</span></h2>
+            <div class="contacto-grid">
+
+                <div class="contacto-info">
+                    <h3>¿Necesitás un repuesto?</h3>
+                    <p>Estamos disponibles para ayudarte a encontrar lo que necesitás. Escribinos, llamanos o visitanos
+                        en nuestro local.</p>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <strong>Dirección</strong>
+                                <span> Av. Blanco Galindo casi Perú (SUPERMALL), Cochabamba </span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <span>+591 7755044</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>mazaimportaciones@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="c-icon"><i class="fa-solid fa-clock"></i></div>
+                            <div>
+                                <strong>Horario</strong>
+                                <span>Lun–Vie: 8:00–19:00 | Sáb: 9:00–14:00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="redes">
+                        <h4>Seguinos en redes</h4>
+                        <div class="redes-links">
+                            <a href="https://www.facebook.com/share/18TJviQMW5/?mibextid=wwXIfr" target="_blank" class="red facebook">
+                                <i class="fa-brands fa-facebook-f"></i><span>Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/autorepuestos.maza?igsh=MWFtdTh0OWxnZjdydA=="
+                                target="_blank" class="red instagram">
+                                <i class="fa-brands fa-instagram"></i><span>Instagram</span>
+                            </a>
+                            <a href="https://wa.me/5491112345678" target="_blank" class="red whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span>
+                            </a>
+                            <a href="https://www.tiktok.com/@auto.repuestos.maza?_r=1&_t=ZS-94WhmyXtZg5" target="_blank"
+                                class="red tiktok">
+                                <i class="fa-brands fa-tiktok"></i><span>TikTok</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contacto-form-area">
+                    <div class="form-card">
+                        <h3>Envianos un mensaje</h3>
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" placeholder="Tu nombre" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="tu@email.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" placeholder="+54 9 11 0000-0000" />
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">¿Qué repuesto necesitás?</label>
+                            <textarea id="mensaje" rows="4"
+                                placeholder="Describí el repuesto, modelo de auto, año..."></textarea>
+                        </div>
+                        <button class="btn btn-primary full-width" onclick="enviarMensaje()">
+                            <i class="fa-solid fa-paper-plane"></i> Enviar mensaje
+                        </button>
+                        <a href="https://wa.me/5491112345678?text=Hola!%20Necesito%20un%20repuesto..." target="_blank"
+                            class="btn btn-whatsapp full-width">
+                            <i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon"><i class="fa-solid fa-gear"></i></span>
+                        <div class="logo-text">
+                            <span class="logo-main">AUTOPARTS</span>
+                            <span class="logo-sub">PRO</span>
+                        </div>
+                    </div>
+                    <p>Más de 20 años llevando calidad y confianza a cada taller y garaje del país.</p>
+                </div>
+                <div class="footer-links">
+                    <h5>Navegación</h5>
+                    <ul>
+                        <li><a href="#historia">Nuestra Historia</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> +54 9 11 1234-5678</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@autopartspro.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Av. Automotriz 1234</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h5>Redes Sociales</h5>
+                    <div class="footer-redes">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 AutoParts Pro. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE WHATSAPP -->
+    <a href="https://wa.me/qr/RFSXUHMUKQDZM1" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.getElementById('header').classList.toggle('scrolled', window.scrollY > 60);
+        });
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const t = document.querySelector(a.getAttribute('href'));
+                if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+            });
+        });
+        document.getElementById('hamburger').addEventListener('click', () => {
+            document.getElementById('mobileMenu').classList.toggle('open');
+            document.getElementById('hamburger').classList.toggle('active');
+        });
+        function closeMenu() {
+            document.getElementById('mobileMenu').classList.remove('open');
+            document.getElementById('hamburger').classList.remove('active');
+        }
+        function enviarMensaje() {
+            const nombre = document.getElementById('nombre').value;
+            const email = document.getElementById('email').value;
+            const mensaje = document.getElementById('mensaje').value;
+            if (!nombre || !email || !mensaje) { alert('Por favor completá todos los campos.'); return; }
+            alert('¡Gracias ' + nombre + '! Tu mensaje fue enviado. Te contactaremos pronto.');
+        }
+        const obs = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.producto-card, .servicio-card, .gal-item').forEach(el => {
+            el.classList.add('fade-in'); obs.observe(el);
+        });
+    </script>
+</body>
+
+</html>
